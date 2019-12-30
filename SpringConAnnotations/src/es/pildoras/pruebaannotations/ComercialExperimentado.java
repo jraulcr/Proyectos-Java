@@ -16,7 +16,7 @@ public class ComercialExperimentado implements IEmpleados {
 	//ejecucion de codigo despues de la creacion del bean
 	@PostConstruct
 	public void ejecutaDespuesCreacion() {
-		System.out.println("Ejecutando tras creación de Bean");
+		System.out.println("Ejecutando tras creacion de Bean");
 	}
 	
 	//ejecucion de codigo despues del apagado contenedor Spring
