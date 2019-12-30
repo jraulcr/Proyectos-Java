@@ -13,13 +13,13 @@ import org.springframework.stereotype.Component;
 public class ComercialExperimentado implements IEmpleados {
 
 	
-	//ejecucion de codigo despued de la creacion del bean
+	//ejecucion de codigo despues de la creacion del bean
 	@PostConstruct
 	public void ejecutaDespuesCreacion() {
 		System.out.println("Ejecutando tras creación de Bean");
 	}
 	
-	//ejecucion de codigo despues del apagado contenedor Sprieng
+	//ejecucion de codigo despues del apagado contenedor Spring
 	@PreDestroy
 	public void ejecutaAntesDestruccion() {
 		System.out.println("Ejecutando antes de la destruccion");
