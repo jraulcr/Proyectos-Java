@@ -16,7 +16,7 @@ public class ComercialExperimentado implements IEmpleados {
 	//ejecucion de codigo despues de la creacion del bean
 	@PostConstruct
 	public void ejecutaDespuesCreacion() {
-		System.out.println("Ejecutando tras creación de Bean");
+		System.out.println("Ejecutando tras creaciÃ³n de Bean");
 	}
 	
 	//ejecucion de codigo despues del apagado contenedor Spring
@@ -26,7 +26,7 @@ public class ComercialExperimentado implements IEmpleados {
 	}	
 	
 	
-	//3º configurar la dependencia de la inyeccion co @autowired	
+	//3Âº configurar la dependencia de la inyeccion con @autowired	***
 	
 	@Autowired
 	@Qualifier("informeFinancieroTrim3") // bean Id que debe utilizar
