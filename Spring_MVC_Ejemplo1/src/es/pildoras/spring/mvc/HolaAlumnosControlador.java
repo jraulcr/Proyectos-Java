@@ -34,6 +34,5 @@ public class HolaAlumnosControlador {
 		modelo.addAttribute("mensajeClaro", mensajeFinal);
 		
 		return "holaAlumnosSpring";
-	}
-	
+	}	
 }
