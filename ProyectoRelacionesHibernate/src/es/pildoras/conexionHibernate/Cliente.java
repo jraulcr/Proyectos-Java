@@ -28,7 +28,7 @@ public class Cliente {
 	@Column(name = "direccion")
 	private String direccion;
 	
-	@OneToOne(cascade = CascadeType.ALL)
+	//@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name="id")
 	private DetallesCliente detallesCliente;	
 
