@@ -1,6 +1,6 @@
-package com.prueba;
+ package com.prueba;
 
-public class CalculadoraFortuna implements ICalculadoraFortuna {
+public class CalculadoraFortuna {
 
 	public static void main (String args[]) {
 
@@ -9,12 +9,6 @@ public class CalculadoraFortuna implements ICalculadoraFortuna {
 		int miSuerte = icf.calcularSuerte("Pepe Pijo");
 		System.out.println(miSuerte);
 		
-	}
-
-	@Override
-	public int calcularSuerte(String nombre) {
-		// TODO Auto-generated method stub
-		return 0;
 	}
 
 }

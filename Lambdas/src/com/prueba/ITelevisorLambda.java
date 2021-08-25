@@ -1,5 +1,6 @@
 package com.prueba;
 
+@FunctionalInterface
 public interface ITelevisorLambda {
-	int volumen (String modo, int valor);  
+	void volumen (String modo, int valor);  
 }
