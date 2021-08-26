@@ -1,4 +1,4 @@
-package com.prueba;
+package com.prueba.vehiculo;
 
 public class Vehiculo {
 	private String matricula;

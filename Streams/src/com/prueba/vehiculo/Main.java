@@ -1,4 +1,4 @@
-package com.prueba;
+package com.prueba.vehiculo;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -24,8 +24,9 @@ public class Main {
         vehiculos.add(new Vehiculo("6666FFF", Modelo.OPEL, 300000));
         vehiculos.add(new Vehiculo("7777GGG", Modelo.CITROEN, 0));
         
-       
-        vehiculos.sort((p1, p2) -> p1.getKilometros() > p2.getKilometros() ? 1 : -1);
+        vehiculos.sort((p1, p2) -> p1.getKilometros() - p2.getKilometros());
+
+       // vehiculos.sort((p1, p2) -> p1.getKilometros() > p2.getKilometros() ? 1 : -1);
                 
         Stream <Vehiculo> stream = vehiculos.stream();
         stream.forEach(p -> System.out.println(p.getKilometros() + ", " + p.getModelo() + ", " + p.getMatricula()));
