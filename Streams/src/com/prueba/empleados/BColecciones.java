@@ -29,6 +29,8 @@ public class BColecciones {
 				.collect(Collectors.toMap(Empleado::getNombre, Empleado::getSalario));
 		System.out.println("Listado con MAP: " + mapEmpleados);
 				
+
+		mapEmpleados.forEach((key, value) -> System.out.println("Listado con MAP 2: " + key + " = " + value));
 	}
 
 }
