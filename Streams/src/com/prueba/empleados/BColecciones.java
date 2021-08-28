@@ -20,14 +20,14 @@ public class BColecciones {
 				);
 		
 		Set<Empleado> setEmpleados = empleados.stream().collect(Collectors.toSet());
-		System.out.println("Listado con SET: " + setEmpleados);
+		System.out.println("Listado con SET: " + setEmpleados + "\r");
 		
 		List<Empleado> listEmpleados = empleados.stream().collect(Collectors.toList());
-		System.out.println("Listado con LIST: " + listEmpleados);
+		System.out.println("Listado con LIST: " + listEmpleados + "\r");
 		
 		Map<String, Double> mapEmpleados = empleados.stream().distinct()
 				.collect(Collectors.toMap(Empleado::getNombre, Empleado::getSalario));
-		System.out.println("Listado con MAP: " + mapEmpleados);
+		System.out.println("Listado con MAP: " + mapEmpleados + "\r");
 				
 
 		mapEmpleados.forEach((key, value) -> System.out.println("Listado con MAP 2: " + key + " = " + value));
